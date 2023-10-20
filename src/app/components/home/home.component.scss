@@ -1,17 +1,48 @@
 
 
 .content{
-
-    .icons{
-        a{
-            font-size: 36px;
-        }
-    }
-
   
-    .shadow{
-        box-shadow: 2px 2px 5px rgba(rgb(85, 26, 139), 0.897);
-    }
+    //li{
+        //transition: all .2s ease-in-out;
+        .shadow{
+            box-shadow: 2px 2px 5px rgba(rgb(85, 26, 139), 0.897);
+
+            a{
+                min-height: 45px;
+                margin: 2px 0px;
+            
+                .icon{
+                    width: 50px;
+                    min-width: 50px;
+                }
+
+                .title{
+                    padding-right: 55px;
+                    width: 100%;
+                    min-width: 0px;
+
+                    span{
+                        overflow: hidden;
+                        text-overflow: ellipsis;
+                    }
+                }
+        
+            }
+    
+            
+    
+        }
+
+
+        
+   // }
+   /*
+    li:hover {
+        transform: scale(1.3);
+      }
+*/
+   
+
   
 
     .surprise{

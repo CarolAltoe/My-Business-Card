@@ -1,18 +1,15 @@
 
 
-<div class="container w-screen h-screen items-center" [class.container]="isDarkMode">
+<div class="container w-screen h-screen " [class.container]="isDarkMode">
 
-  <div class="icon items-left "  (click)="toggleDarkMode()">
-    <i class="material-icons">{{ isDarkMode ? 'brightness_6 ' : 'brightness_5' }}</i>
+  <div class="icon items-center "  (click)="toggleDarkMode()">
+    <i class="material-icons text-2xl">{{ isDarkMode ? 'brightness_6 ' : 'brightness_5' }}</i>
   </div>
 
-  <div class="">
-    
+  <div class="items-center">
+    <app-header></app-header>
+    <router-outlet [class.home]="isDarkMode"></router-outlet>
   </div>
-
-
-  <app-header></app-header>
-  <router-outlet [class.home]="isDarkMode"></router-outlet>
 
   <app-footer></app-footer>
 
