@@ -7,14 +7,17 @@
 @import './assets/dark-theme.scss';
 
 
-html, body { height: 100%; }
-body { 
+html,
+body {
+    height: 100%;
+}
+
+body {
     margin: 0;
     //font-family: Roboto, "Helvetica Neue", sans-serif;
     color: black;
     font-size: 16px;
-    background: linear-gradient(0deg, rgba(202,166,204,1) 0%, rgba(243,243,244,1) 50%, rgba(202,166,204,1) 100%);
+    background: linear-gradient(0deg, rgba(202, 166, 204, 1) 0%, rgba(243, 243, 244, 1) 50%, rgba(202, 166, 204, 1) 100%);
+    
+   
 }
-
-
-

@@ -6,9 +6,12 @@
         //transition: all .2s ease-in-out;
         .shadow{
             box-shadow: 2px 2px 5px rgba(rgb(85, 26, 139), 0.897);
+            border-radius: 15px;
 
             a{
-                min-height: 45px;
+                //min-height: 30px;
+                //max-height: 40px;
+                height: 40px;
                 margin: 2px 0px;
             
                 .icon{
@@ -17,13 +20,14 @@
                 }
 
                 .title{
-                    padding-right: 55px;
+                    padding-right: 45px;
                     width: 100%;
                     min-width: 0px;
 
                     span{
                         overflow: hidden;
                         text-overflow: ellipsis;
+                        font-size: 18px;
                     }
                 }
         

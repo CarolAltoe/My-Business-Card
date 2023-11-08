@@ -1,17 +1,18 @@
-.content{
-    img{
+.content {
+    img {
         width: 150px;
         height: 150px;
     }
 
-    .h2{
-        font-size: 20px;
+    .h2 {
+        font-size: 22px;
         font-weight: 500;
         line-height: 60px;
         letter-spacing: .0125em;
+        min-width: 22px;
     }
 
-    .info{
+    .info {
         border-radius: px;
         border: 1px solid black;
     }
