@@ -27,6 +27,6 @@
         "id" : 5,
         "title" : "Schedule time with me!",
         "url": "https://calendar.google.com/calendar/appointments/schedules/AcZssZ3zc_yH6olRZ3D8jCMcWSgDQJaLvj2lVwwMfcFXJHjL48dxjv9O5phxqf7r8pEdC05Jkmg6Zm9s?gv=true",
-        "icon": ""
+        "icon": "far fa-calendar-alt"
     }
 ]

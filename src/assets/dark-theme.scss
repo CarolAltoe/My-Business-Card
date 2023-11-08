@@ -1,12 +1,23 @@
 /* styles-dark.css */
 
-.container{
-  background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(118,9,121,1) 100%);
+
+.body{
+  //background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(118,9,121,1) 100%);
+  background: linear-gradient(0deg, rgba(2,0,36,0.9136029411764706) 0%, rgba(118,9,121,0.9164040616246498) 100%);
+ 
+ 
   color: white; 
-  
+  transition: background-color 300ms; 
 
   .home{
     color: white;
+
+    /*.content{
+      .shadow{
+        border-color: white;
+        box-shadow: 2px 2px 5px rgba(255, 255, 255, 0.897);
+      }
+    }*/
     .links{
       u {
         li{
@@ -35,4 +46,10 @@
 }
 
 
+@media (min-width: 768px) {
+
+  .container {
+    max-width: 768px;
+  }
+}
 
